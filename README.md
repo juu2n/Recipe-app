@@ -1,12 +1,59 @@
-# React + Vite
+# Recipe Recommendation Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+This is a simple web application that allows users to search for recipes based on their preferences. The app provides recommendations and displays key details about each recipe, including ingredients, cuisine type, and health labels.
 
-Currently, two official plugins are available:
+## 📌 Features
+- 🔍 Search for recipes by keyword
+- 📄 Display recipe details such as ingredients, cuisine type, and health labels
+- ⭐ Favorite recipes for easy access
+- 🎨 User-friendly interface with a responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Used
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🔗 Lucide React Icons
 
-## Expanding the ESLint configuration
+## 🏗 Setup Instructions
+### Prerequisites
+Ensure you have the following installed:
+- 📌 Node.js
+- 📌 npm or yarn
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📥 Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/recipe-app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd recipe-app
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+   or
+   ```sh
+   yarn install
+   ```
+
+### ▶ Running the App
+To start the development server, run:
+```sh
+npm run dev
+```
+
+The app should now be accessible at `http://localhost:5173/` (or the port assigned by Vite).
+
+## ⚠ Known Issues
+- 🖼 Image uploads from external sources may not work properly.
+- ⚙ Some API-related functionalities have been manually implemented due to restrictions.
+
+## 🌱 Future Improvements
+- 🔗 Improve API integration for better recipe fetching
+- 🖼 Enhance image upload capabilities
+- 🔑 Add user authentication for personalized recommendations
+
+
